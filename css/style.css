@@ -554,7 +554,7 @@ header .header_btn_entry {
 
   .container2,
   .container3 {
-    width: 96%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4188,14 +4188,9 @@ ul.dots>li:before {
 
   .container2,
   .container3 {
-    width: 93%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .inner {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 }
 

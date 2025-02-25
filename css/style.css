@@ -344,6 +344,7 @@ main {
 
 .mt8 {
   margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .font_mincho {
@@ -3706,7 +3707,7 @@ div.bnr_area {
 .thread_item p {
   font-size: 2rem;
   margin-top: 2rem;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 
@@ -3761,7 +3762,10 @@ ul.dots>li:before {
   content: "・";
 }
 
-
+.smallfont {
+  text-align: left;
+  font-size: 0.8em!important;
+}
 
 
 
@@ -3908,6 +3912,7 @@ ul.dots>li:before {
 
   .thread_list {
     margin-top: 6rem;
+    gap: 20px;
   }
 
   .pc {
@@ -3995,8 +4000,8 @@ ul.dots>li:before {
     flex-grow: 1;
     padding-top: 15px;
     padding-right: 0px;
-    line-height: 1.7;
-    font-size: 3rem;
+    line-height: 1.5;
+    font-size: 3.5rem;
   }
 
   .items .image {
@@ -4046,7 +4051,7 @@ ul.dots>li:before {
 
   .text p {
     font-family: var(--font-jp-gothic);
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .head_line {
@@ -4067,9 +4072,60 @@ ul.dots>li:before {
     margin-top: 22px;
   }
 
+  .thread_item p {
+    font-size: 3rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+  }
+
+  .thread_item h3 {
+    font-size: 4.4rem;
+    text-align: left;
+    font-family: "Noto Serif JP", 游明朝;
+  }
+
+  .sd_item {
+    width: calc(100% / 3 - -20rem);
+  }
+
+  .smallfont {
+    text-align: left;
+    font-size: 2rem!important;
+    margin-top: 2rem;
+    line-height: 1.5;
+  }
+
 }
 
 @media screen and (max-width: 430px) {
+
+  .thread_item h3 {
+    font-size: 4.7rem;
+    text-align: left;
+    font-family: "Noto Serif JP", 游明朝;
+  }
+
+  .sd_item {
+    width: calc(100% / 3 - -18rem);
+  }
+
+  .smallfont {
+    text-align: left;
+    font-size: 1.4em!important;
+    margin-top: 2rem;
+    line-height: 1.5;
+  }
+
+  .thread_item p {
+    font-size: 3.4rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+  }
+
+  .thread_list {
+    margin-top: 8rem;
+    gap: 10px;
+  }
 
   .items h3:before {
     left: -70px;
@@ -4114,11 +4170,12 @@ ul.dots>li:before {
     margin-bottom: .0em;
     display: inline-block;
     margin-right: 0.33em;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   h5.ttl01 {
     font-size: 3.5rem;
+    margin: 0px 0 5px;
   }
 
   .site_frame {

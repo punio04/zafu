@@ -554,7 +554,7 @@ header .header_btn_entry {
 
   .container2,
   .container3 {
-    width: 100%;
+    width: 96%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4184,13 +4184,6 @@ ul.dots>li:before {
 
   .dots.-site.sp-palt {
     font-size: 100%;
-  }
-
-  .container2,
-  .container3 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 

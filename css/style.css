@@ -1922,7 +1922,7 @@ a.tel_tap+p {
   }
 
   .steps {
-    margin: 60px 0 0 0;
+    margin: 7rem 0;
   }
 
   /*-------------------------tanto------------------*/
@@ -3764,7 +3764,7 @@ ul.dots>li:before {
 
 .smallfont {
   text-align: left;
-  font-size: 0.8em!important;
+  font-size: 0.8em !important;
 }
 
 
@@ -4090,7 +4090,7 @@ ul.dots>li:before {
 
   .smallfont {
     text-align: left;
-    font-size: 2rem!important;
+    font-size: 2rem !important;
     margin-top: 2rem;
     line-height: 1.5;
   }
@@ -4111,7 +4111,7 @@ ul.dots>li:before {
 
   .smallfont {
     text-align: left;
-    font-size: 1.4em!important;
+    font-size: 1.4em !important;
     margin-top: 2rem;
     line-height: 1.5;
   }

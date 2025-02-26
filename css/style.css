@@ -1642,7 +1642,11 @@ a.tel_tap+p {
 }
 
 .sec_com02 {
-  padding: 0 0 8rem 0;
+  padding: 8rem 0 0 0;
+}
+
+.sec_com03 {
+  padding: 8rem 0;
 }
 
 .sec_com__tn {
@@ -2051,7 +2055,7 @@ a.tel_tap+p {
   margin-bottom: 4rem;
   letter-spacing: 0;
   line-height: 1.4;
-  color: #806a3a;
+  color: #8C6239;
 }
 
 .sec_title03 {
@@ -2059,7 +2063,7 @@ a.tel_tap+p {
   margin-bottom: 4rem;
   letter-spacing: 0;
   line-height: 1.4;
-  color: #806a3a;
+  color: #8C6239;
 }
 
 .sec_title[color=white] {
@@ -2801,11 +2805,12 @@ div.bnr_area {
   text-align: center;
 }
 
-
 .line_bnr {
   max-width: 1000px;
   margin: 0 auto;
+  width: 96%;
 }
+
 
 @media screen and (max-width: 767.98px) {
   section.bnr_area {
@@ -2813,7 +2818,7 @@ div.bnr_area {
   }
 
   div.bnr_area {
-    padding: 30px 0 5px;
+    padding: 20px 5px 0 5px;
   }
 }
 
@@ -3482,6 +3487,10 @@ div.bnr_area {
   .sn_content {
     margin-top: 6VW;
   }
+
+  .line_bnr {
+    width: 93%;
+  }
 }
 
 
@@ -3578,8 +3587,8 @@ div.bnr_area {
 }
 
 .head_line {
-  border-top: 1px solid #8b6900;
-  border-bottom: 1px solid #8b6900;
+  border-top: 1px solid #8C6239;
+  border-bottom: 1px solid #8C6239;
   font-family: var(--font-jp-min);
   font-size: 26px;
   font-weight: 500;
@@ -3587,7 +3596,7 @@ div.bnr_area {
   text-align: center;
   padding: 15px;
   margin-bottom: 20px;
-  color: #8b6900;
+  color: #8C6239;
 }
 
 .example_item_typical .text {
@@ -3646,7 +3655,7 @@ div.bnr_area {
 }
 
 .font_color {
-  color: #806a3a;
+  color: #8C6239;
 }
 
 /* 料金 */
@@ -3656,16 +3665,17 @@ div.bnr_area {
 }
 
 .sec_title02 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 4rem;
   letter-spacing: 0;
   line-height: 1.4;
-  color: #806a3a;
+  color: #8C6239;
 }
 
 .plan_title {
   text-align: center;
   padding-bottom: 20px;
+  font-size: 4.4rem;
 }
 
 
@@ -3720,7 +3730,7 @@ div.bnr_area {
 
 .case_details a {
   text-decoration: underline;
-  color: #9D7738;
+  color: #8C6239;
 
 }
 
@@ -3736,15 +3746,15 @@ div.bnr_area {
 
 .site_frame {
   padding: 28px 45px 20px 45px;
-  border: 2px solid rgba(159, 136, 83, 0.50);
+  border: 2px solid #8c623980;
   margin: 30px 0 0;
   text-align: center;
 }
 
 h5.ttl01 {
-  font-size: 21px;
-  font-weight: 500;
-  color: #af843f;
+  font-size: 26px;
+  font-weight: bolder;
+  color: #8C6239;
   margin: 0 0 5px;
 }
 
@@ -3755,7 +3765,7 @@ ul.dots li {
   margin-bottom: .4em;
   margin-right: 1em;
   display: inline-block;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 ul.dots>li:before {
@@ -3869,7 +3879,7 @@ ul.dots>li:before {
 }
 
 .keyword {
-  color: #806a3a;
+  color: #8C6239;
 }
 
 .palt {
@@ -3877,10 +3887,12 @@ ul.dots>li:before {
   margin-bottom: 4rem;
   letter-spacing: 0;
   line-height: 1.4;
-  color: #806a3a;
+  color: #494949;
 }
 
-
+.tokuten {
+  background-color: #FBF6F0 !important;
+}
 
 
 
@@ -3901,12 +3913,12 @@ ul.dots>li:before {
 @media screen and (max-width: 768px) {
 
   .plan_title {
-    font-size: 5rem;
+    font-size: 5.5rem;
     padding-bottom: 10px;
   }
 
   .sec_title02 {
-    font-size: 6rem;
+    font-size: 5.4rem;
     margin-bottom: 5rem;
   }
 
@@ -3945,7 +3957,6 @@ ul.dots>li:before {
     margin-bottom: 4rem;
     letter-spacing: 0;
     line-height: 1.4;
-    color: #806a3a;
   }
 
   .items h3 {
@@ -4015,11 +4026,10 @@ ul.dots>li:before {
   }
 
   h5.ttl01 {
-    font-size: 18px;
+    font-size: 26px;
     margin: 0px 0 0px;
     font-weight: 600;
     text-align: center;
-    font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HGS明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   }
 
   .dots.-site.sp-palt {
@@ -4036,7 +4046,7 @@ ul.dots>li:before {
     margin-bottom: .4em;
     display: inline-block;
     margin-right: 0.33em;
-    font-size: 0.9em;
+    font-size: 1.4em;
   }
 
   ul.dots>li:before {
@@ -4046,6 +4056,10 @@ ul.dots>li:before {
   }
 
   .sec_com02 {
+    padding: 6rem 0 0 0;
+  }
+
+  .sec_com03 {
     padding: 6rem 0;
   }
 
@@ -4177,11 +4191,11 @@ ul.dots>li:before {
     margin-bottom: .0em;
     display: inline-block;
     margin-right: 0.33em;
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   h5.ttl01 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin: 0px 0 5px;
   }
 
